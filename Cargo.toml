@@ -12,6 +12,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 worker = "0.0.18"
+serde = "1.0.193"
 
 [profile.release]
 lto = true
